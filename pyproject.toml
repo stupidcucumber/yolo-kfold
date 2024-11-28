@@ -5,7 +5,7 @@ requires = [
 build-backend = "hatchling.build"
 
 [project]
-name = ""
+name = "yolokfold"
 version = "0.0.1"
 authors = [
     {name="Ihor Kostiuk", email="ihor.kostiuk@knu.ua"},
@@ -17,7 +17,12 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Operating System :: OS Independent",
 ]
-dependencies = []
+dependencies = [
+    "ultralytics",
+    "scikit-learn",
+    "pandas",
+    "pyaml"
+]
 
 [tool.flake8]
 max-line-length=88

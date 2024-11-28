@@ -1,1 +1,5 @@
 pre-commit
+ultralytics
+pyyaml
+scikit-learn
+pandas
